@@ -14,4 +14,4 @@ console.log(cart)
 cart.unshift('-1','-2')
 console.log(cart)
 
-// console.log(cart.includes())
+// console.log(cart.includes()).=
