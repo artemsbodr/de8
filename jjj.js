@@ -13,12 +13,11 @@ const cart = [
   "Карточка-5",
 ];
 
+cart.splice(2,1);
 console.log(cart);
-cart.splice("2");
-console.log(cart.indexOf("Карточка-3"));
-cart.push("Карточка-4");
+cart.push("Карточка-6");
 console.log(cart);
-cart.push("Карточка-5(!Нова!)");
+cart.push("Карточка-4(!Нова!)");
 
 cart.unshift("Карточка-0", "Карточка-00");
 console.log(cart);
